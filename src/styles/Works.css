@@ -1,0 +1,66 @@
+.works {
+	background: #0d0d2b;
+	padding: 50px 0;
+	text-align: center;
+  }
+  
+  .heading-sub-text {
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+  }
+  
+  .works-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 20px;
+  }
+  
+  .work-experience {
+	background: linear-gradient(135deg, #1f1c47, #2b2b52);
+	border-radius: 12px;
+	padding: 20px;
+	width: 60%;
+	color: white;
+	box-shadow: 0px 0px 10px rgba(157, 78, 237, 0.5);
+	border: 2px solid transparent;
+	transition: border 0.3s ease, box-shadow 0.3s ease;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	text-align: left;
+	gap: 10px;
+  }
+  
+  /* Hover effect - Only border color changes */
+  .work-experience:hover {
+	border: 2px solid #9d4edd;
+	box-shadow: 0px 0px 15px rgba(157, 78, 237, 0.8);
+	cursor: pointer;
+  }
+  
+  /* Dates (above title) */
+  .dates {
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff; /* Green color like the image */
+	text-align: left;
+  }
+  
+  /* Job title */
+  .work-info h3 {
+	display: flex;
+	align-items: center;
+	font-size: 20px;
+	color: #9d4edd;
+  }
+  
+  /* Company name */
+  .company-name {
+	font-size: 20px;
+	color: #a8a8a8;
+  }
+  
+  
